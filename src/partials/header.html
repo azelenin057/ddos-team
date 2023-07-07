@@ -1,8 +1,42 @@
 <header class="header">
-  <p>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta impedit
-    porro pariatur nobis mollitia voluptatem rem voluptates, ullam maiores
-    facere aperiam blanditiis tempore aspernatur, fugit sunt, ut incidunt illo
-    dolor.
-  </p>
+  <div class="header-container">
+    <div class="header-nav-container">
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a href="#how-it-works">How it works</a>
+          </li>
+          <li class="header-nav-item"><a href="#vegetables">Vegetables</a></li>
+          <li class="header-nav-item"><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-logo-container">
+      <a class="header-logo" href="../index.html">
+        <svg class="header-logo-icon" width="16" height="16">
+          <use href="../public/icon.svg#icon-logo"></use></svg
+        >Veggieboost
+      </a>
+    </div>
+
+    <div class="header-btn-container">
+      <button class="header-basket-btn" type="button">
+        <svg class="header-basket-icon" width="24" height="24">
+          <use href="../public/icon.svg#icon-shopping"></use>
+        </svg>
+      </button>
+
+      <button
+        class="mobile-menu-open js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        type="button"
+      >
+        <svg class="mobile-menu-icon" width="24" height="24">
+          <use href="../public/icon.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
 </header>
