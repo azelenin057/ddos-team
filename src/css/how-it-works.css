@@ -16,7 +16,7 @@
   margin: 0 auto;
   margin-bottom: 20px;
   text-align: center;
-  width: 310px;
+  width: 335px;
 }
 
 .how-it-works-list {
@@ -90,7 +90,7 @@
     font-size: 48px;
     line-height: calc(50 / 48);
   }
-  .how-it-works-image {
+  .how-it-works-image img {
     width: 410px;
     height: 170px;
   }
