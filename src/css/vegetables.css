@@ -3,6 +3,12 @@
   src: url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 }
 
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 .vegetables {
   margin: 80px 0;
 }
@@ -76,4 +82,68 @@
 
 .radish-hidden {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+.container {
+  max-width: 768px;
+  padding: 0 32px;
+}
+
+.vegetables {
+    margin: 100px 0;
+  }
+
+  .vegetables-title {
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+  }
+
+  .vegetables-text {
+    max-width: 562px;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .vegetables-list {
+    flex-direction: unset;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+  }
+
+  .vegetables-item {
+    padding: 64px 24px 24px;
+    width: calc((100% - 20px) / 2);
+  }
+
+  .cards-subtitle {
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+    margin-bottom: 8px;
+  }
+
+  .cards-text {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.36px;
+  }
+
+  .img-block {
+    width: 321px;
+    height: 261px;
+    margin-top: 0;
+    margin-bottom: 32px;
+
+  }
+
+  .cards-price {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
 }
