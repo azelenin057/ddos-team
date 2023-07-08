@@ -37,7 +37,6 @@
   border: none;
   background-color: transparent;
   outline: none;
-  cursor: pointer;
 }
 
 .mobile-menu-icon {
@@ -105,7 +104,6 @@
   border: none;
   background-color: transparent;
   outline: none;
-  cursor: pointer;
 }
 
 .mobile-basket-icon {
@@ -150,11 +148,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 0;
+    padding: 13px 0;
     border: none;
     background-color: transparent;
     outline: none;
-    cursor: pointer;
   }
 
   .header-basket-icon {
@@ -175,5 +172,15 @@
 
   .header-nav-container {
     margin-right: 308px;
+  }
+
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    color: #a1c487;
+  }
+
+  .header-basket-btn:hover .header-basket-icon,
+  .header-basket-btn:focus .header-basket-icon {
+    fill: #a1c487;
   }
 }
