@@ -86,9 +86,28 @@
 
 .order-bttn {
   display: block;
+  border-radius: 50%;
+  background-color: #FC8A11;
+  color: #fff;
+  border: none;
+  width: 80px;
+  height: 80px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  transform: rotate(-15deg);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+}
+
+.icon-bttn {
+  transform: rotate(15deg);
+  padding-right: 4px;
+  fill: currentColor;
 }
 
 @media screen and (min-width: 768px) {
