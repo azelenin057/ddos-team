@@ -77,3 +77,126 @@
 .radish-hidden {
   display: none;
 }
+
+.order-bttn {
+  display: block;
+  border-radius: 50%;
+  background-color: #FC8A11;
+  color: #fff;
+  border: none;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(-15deg);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+}
+
+.icon-bttn {
+  transform: rotate(15deg);
+  padding-right: 4px;
+  fill: currentColor;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .vegetables {
+    margin: 100px 0;
+  }
+
+  .vegetables-title {
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+  }
+
+  .vegetables-text {
+    max-width: 562px;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .vegetables-list {
+    flex-direction: unset;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+  }
+
+  .vegetables-item {
+    padding: 64px 24px 24px;
+    width: calc((100% - 20px) / 2);
+  }
+
+  .cards-subtitle {
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+  }
+
+  .cards-text {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.36px;
+  }
+
+  .img-block {
+    width: 321px;
+    height: 261px;
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+
+  .cards-price {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+
+  .order-bttn {
+    margin-top: 40px;
+    width: 114px;
+    height: 114px;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .vegetables {
+    padding: 124px 0;
+  }
+
+  .vegetables-title {
+    font-size: 40px;
+    line-height: 1.10;
+    letter-spacing: -1.6px;
+  }
+
+  .cards-subtitle {
+    font-size: 32px;
+    line-height: 1.18;
+    letter-spacing: -1.28px;
+    }
+
+  .vegetables-list {
+    gap: 24px 24px;
+  }
+
+  .vegetables-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+.radish-hidden {
+  display: flex;
+  }
+}
