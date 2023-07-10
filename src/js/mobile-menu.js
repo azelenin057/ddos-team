@@ -6,12 +6,14 @@
   const closeMenuLinkA = document.querySelector('.js-close-linka');
   const closeMenuLinkB = document.querySelector('.js-close-linkb');
   const closeMenuLinkC = document.querySelector('.js-close-linkc');
+  const openMenuBtn2 = document.querySelector('.js-open-menu2');
 
   const toggleMenu = () => {
     const isMenuOpen =
       openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
       openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
       mobileMenu.classList.toggle('is-open');
+      openMenuBtn2.classList.toggle('show');
 
     const scrollLockMethod = !isMenuOpen
       ? 'disableBodyScroll'
