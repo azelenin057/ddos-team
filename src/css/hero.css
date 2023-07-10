@@ -1,3 +1,263 @@
 .hero {
-  background-color: #A1C487;
+  background-color: #a1c487;
+}
+
+.hero-container {
+  padding-top: 48px;
+  padding-bottom: 20px;
+}
+
+.hero-review-list {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.hero-review-item {
+  background-color: #fff;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  justify-content: center;
+  margin-left: -16px;
+  text-align: center;
+}
+
+.hero-review-item:nth-child(1) {
+  margin-left: 0;
+}
+
+.hero-review-number {
+  color: #141414;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  padding-top: 8px;
+  margin-bottom: 2px;
+}
+
+.hero-review-text {
+  color: #141414;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-transform: lowercase;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.hero-title-vege {
+  color: #eaf7e5;
+  font-style: italic;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  display: block;
+  width: 68px;
+  height: 68px;
+  border: none;
+  border-radius: 50%;
+  background-color: #faf3e7;
+  color: #fc8a11;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  transform: rotate(-14deg);
+}
+
+.hero-picture {
+  width: 278px;
+  height: 228px;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.hero-img {
+  transform: scale(1.15) translateY(4.5%);
+}
+
+.hero-hashtag-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 173px;
+  height: 60px;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.hero-hashtag-item {
+  padding: 8px 14px;
+  border-radius: 1000px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.hero-hashtag-item:nth-child(1) {
+  background-color: #f9f7f4;
+  color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+
+  .hero-container {
+    padding-top: 64px;
+    padding-bottom: 32px;
+  }
+
+  .hero-review-list {
+    margin-bottom: 16px;
+  }
+
+  .hero-review-item {
+    width: 54px;
+    height: 54px;
+    margin-left: -18px;
+  }
+
+  .hero-review-number {
+    font-size: 18px;
+    padding-top: 9px;
+  }
+
+  .hero-review-text {
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  .hero-title {
+    font-size: 54px;
+    line-height: 1.18;
+    margin-bottom: 16px;
+  }
+
+  .hero-text {
+    width: 490px;
+    margin-bottom: 32px;
+  }
+
+  .hero-btn {
+    width: 114px;
+    height: 114px;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .hero-picture {
+    width: 466px;
+    height: 380px;
+    margin-bottom: 8px;
+  }
+
+  .hero-hashtag-list {
+    width: 217px;
+    height: 76px;
+    gap: 8px 4px;
+  }
+
+  .hero-hashtag-item {
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  
+  .hero-container {
+    padding-top: 132px;
+    position: relative;
+  }
+
+  .hero-review-item {
+    width: 70px;
+    height: 70px;
+    margin-left: -24px;
+  }
+
+  .hero-review-number {
+    padding-top: 14px;
+    font-size: 24px;
+  }
+
+  .hero-review-text {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+
+  .hero-title {
+    width: 672px;
+    font-size: 64px;
+    line-height: 1.17;
+  }
+
+  .hero-text {
+    width: 491px;
+    margin-bottom: 32px;
+  }
+
+  .hero-btn {
+    width: 132px;
+    height: 132px;
+    font-size: 28px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-btn:hover,
+  .hero-btn:focus {
+    background-color: #eaf7e5;
+    color: #a1c487;
+  }
+
+  .hero-picture {
+    position: absolute;
+    top: 50%;
+    left: 77.5%;
+    transform: translate(-50%, -50%) scaleY(1);
+    width: 515px;
+    height: 432px;
+    margin-bottom: 0;
+  }
+
+  .hero-hashtag-list {
+    width: 269px;
+    height: 84px;
+    gap: 8px 8px;
+  }
+
+  .hero-hashtag-item {
+    padding: 12px 32px;
+  }
 }
