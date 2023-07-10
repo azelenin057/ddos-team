@@ -3,6 +3,8 @@
 }
 
 .hero-container {
+  /* padding-top: 48px;
+  padding-bottom: 20px; */
   padding: 48px 20px 20px 20px;
   max-width: 375px;
   width: 100%;
@@ -132,6 +134,16 @@
 }
 
 @media screen and (min-width: 768px) {
+  /* .container {
+    max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .hero-container {
+    padding-top: 64px;
+    padding-bottom: 32px;
+  } */
 
   .hero-container {
     max-width: 768px;
