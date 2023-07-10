@@ -9,6 +9,7 @@
   line-height: calc(32 / 28);
   letter-spacing: -0.04em;
   text-transform: uppercase;
+  text-align: center;
   margin-bottom: 20px;
 }
 .how-it-works-image img {
@@ -32,18 +33,16 @@
   letter-spacing: -0.04em;
 }
 
+/* ----------------------------TABLET---------------------------- */
+
 @media screen and (min-width: 768px) {
   .how-it-works {
     padding-top: 100px;
     padding-bottom: 100px;
   }
-  .container {
-    max-width: 768px;
-  }
 
   .how-it-works-container {
     position: relative;
-    max-width: 768px;
   }
 
   .how-it-works-title {
@@ -80,6 +79,8 @@
   }
 }
 
+/* ----------------------------DESKTOP---------------------------- */
+
 @media screen and (min-width: 1280px) {
   .how-it-works {
     padding-top: 124px;
@@ -93,6 +94,7 @@
   .how-it-works-image img {
     width: 410px;
     height: 170px;
+    /* transition: transform 0.3s ease; */
   }
   .how-it-works-list {
     max-width: 687px;
@@ -104,4 +106,9 @@
   .how-it-works-item:last-child {
     width: 294px;
   }
+
+  /* .how-it-works-image img:hover,
+  .how-it-works-image img:focus {
+    transform: scale(2.5);
+  } */
 }
