@@ -130,7 +130,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .hero-container {
     padding-top: 64px;
     padding-bottom: 32px;
@@ -194,7 +193,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  
   .hero-container {
     padding-top: 132px;
     position: relative;
