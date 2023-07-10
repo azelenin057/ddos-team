@@ -3,12 +3,8 @@
 }
 
 .hero-container {
-  /* padding-top: 48px;
-  padding-bottom: 20px; */
-  padding: 48px 20px 20px 20px;
-  max-width: 375px;
-  width: 100%;
-  margin: 0 auto;
+  padding-top: 48px;
+  padding-bottom: 20px;
 }
 
 .hero-review-list {
@@ -134,20 +130,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* .container {
-    max-width: 768px;
-    padding-right: 32px;
-    padding-left: 32px;
-  }
 
   .hero-container {
     padding-top: 64px;
     padding-bottom: 32px;
-  } */
-
-  .hero-container {
-    max-width: 768px;
-    padding: 64px 32px 32px 32px;
   }
 
   .hero-review-list {
@@ -208,8 +194,8 @@
 }
 
 @media screen and (min-width: 1280px) {
+  
   .hero-container {
-    max-width: 1280px;
     padding-top: 132px;
     position: relative;
   }
