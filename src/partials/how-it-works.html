@@ -1,31 +1,51 @@
-<section class="how-it-works">
-  <h1 class="how-it-works-title">
-    To order your vegetable basket, simply follow these easy steps
-  </h1>
-  <img
-    class="how-it-works-image"
-    srcset="
-      ./img/how-it-works/how-it-works-broccoli-x1.jpg 1x,
-      ./img/how-it-works/how-it-works-broccoli-x2.jpg 2x
-    "
-    src="./img/how-it-works/how-it-works-broccoli-x1.jpg"
-    alt="Broccoli"
-    width="335"
-    height="158"
-  />
-  <ul class="how-it-works-list list">
-    <li class="how-it-works-item">
-      <p class="how-it-works-text">
-        Our baskets are assembled with care and delivered straight to your
-        doorstep, so you can enjoy the taste of fresh fruit without ever leaving
-        your home.
-      </p>
-    </li>
-    <li class="how-it-works-item">
-      <p class="how-it-works-text">
-        Whether you're looking for a healthy snack or a thoughtful gift, our
-        fruit baskets are the perfect choice.
-      </p>
-    </li>
-  </ul>
+<section class="how-it-works" id="how-it-works">
+  <div class="how-it-works-container container">
+    <h1 class="how-it-works-title">
+      To order your vegetable basket, simply follow these easy steps
+    </h1>
+    <picture class="how-it-works-image">
+      <source
+        srcset="
+          ./img/how-it-works/desktop-broccoli-x1.jpg 1x,
+          ./img/how-it-works/desktop-broccoli-x2.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/how-it-works/tablet-broccoli-x1.jpg 1x,
+          ./img/how-it-works/tablet-broccoli-x2.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/how-it-works/mobile-broccoli-x1.jpg 1x,
+          ./img/how-it-works/mobile-broccoli-x2.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./img/how-it-works/mobile-broccoli-x1.jpg"
+        alt="Broccoli"
+        width="335"
+        height="158"
+      />
+    </picture>
+    <ul class="how-it-works-list list">
+      <li class="how-it-works-item">
+        <p class="how-it-works-text">
+          Our baskets are assembled with care and delivered straight to your
+          doorstep, so you can enjoy the taste of fresh fruit without ever
+          leaving your home.
+        </p>
+      </li>
+      <li class="how-it-works-item">
+        <p class="how-it-works-text">
+          Whether you&#39;re looking for a healthy snack or a thoughtful gift,
+          our fruit baskets are the perfect choice.
+        </p>
+      </li>
+    </ul>
+  </div>
 </section>

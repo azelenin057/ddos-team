@@ -1,3 +1,117 @@
 .footer {
-  background-color: green;
+  background-color: #eaf7e5;
+}
+
+.footer-container {
+  /* Я змінив ХТМЛ код, та додав туди клас - container */
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-logo-container {
+  margin: 20px auto 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-logo {
+  display: flex;
+  gap: 8px;
+  color: #141414;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.footer-logo-icon {
+  fill: #141414;
+}
+.footer-nav-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-nav-item {
+  color: #141414;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+}
+.footer-social {
+  margin-top: 40px;
+}
+.footer-social-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.footer-social-item {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #141414;
+}
+.footer-social-link {
+  display: flex;
+}
+.footer-social-icon {
+}
+.contacts {
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-phone {
+  text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #141414;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.link {
+}
+.contacts-address {
+  text-align: center;
+  color: #141414;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-container {
+    max-width: 1280px;
+  }
 }
