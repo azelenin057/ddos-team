@@ -67,7 +67,11 @@
   border: none;
 }
 .call-you-image img {
+  background-color: #faf3e7;
   border-radius: 40px;
+  background-image: url(/img/call-you/bg-x1.png);
+  background-size: cover;
+  padding-top: 31px;
 }
 
 /* ----------------------------TABLET---------------------------- */
@@ -96,6 +100,10 @@
   .call-you-image img {
     margin: 0 auto;
     width: 704px;
+    border-radius: 80px;
+    padding-top: 17px;
+    padding-left: 37px;
+    padding-right: 38px;
   }
 }
 
@@ -108,6 +116,7 @@
   }
   .call-you-container {
     display: flex;
+    justify-content: space-between;
     gap: 77px;
   }
   .call-you-wrapper {
@@ -116,7 +125,7 @@
     justify-content: center;
   }
   .call-you-title {
-    width: 614px;
+    /* width: 614px; */
     font-size: 48px;
     line-height: calc(50 / 48);
     margin-bottom: 40px;
@@ -130,5 +139,11 @@
   .call-you-form {
     margin-bottom: 0;
     margin-left: 0;
+  }
+  .call-you-image img {
+    width: 525px;
+    padding-top: 37px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
