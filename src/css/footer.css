@@ -160,6 +160,9 @@ letter-spacing: -0.36px;
     justify-content: left;
   
   }
+  .footer-logo-container {
+    margin-bottom: 0;
+  }
   .footer-image-logo-container {
     flex-direction: row;
     margin-left: 0;
