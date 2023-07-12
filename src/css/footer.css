@@ -130,7 +130,9 @@
   .footer-social {
     margin-top: 0;
   }
-
+  .footer-social-list {
+    justify-content: left;
+  }
   .social-address-container {
     display: flex;
     flex-direction: column;
@@ -141,6 +143,7 @@
 text-transform: uppercase;
   }
   .contacts-address {
+    text-align: left;
     font-size: 18px;
 line-height: 24px;
 letter-spacing: -0.36px;
