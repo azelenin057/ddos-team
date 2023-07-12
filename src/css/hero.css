@@ -1,5 +1,5 @@
 .hero {
-  background-color: #a1c487;
+  background-color: var(--hero-bg-color);
 }
 
 .hero-container {
@@ -28,7 +28,7 @@
 }
 
 .hero-review-number {
-  color: #141414;
+  color: var(--text-color);
   text-align: center;
   font-size: 14px;
   font-weight: 500;
@@ -40,7 +40,7 @@
 }
 
 .hero-review-text {
-  color: #141414;
+  color: var(--text-color);
   font-size: 8px;
   font-weight: 400;
   line-height: 1.25;
@@ -58,7 +58,7 @@
 }
 
 .hero-title-vege {
-  color: #eaf7e5;
+  color: var(--vegetables-color);
   font-style: italic;
 }
 
@@ -78,8 +78,8 @@
   height: 68px;
   border: none;
   border-radius: 50%;
-  background-color: #faf3e7;
-  color: #fc8a11;
+  background-color: var(--second-btn-color);
+  color: var(--main-btn-color);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -125,8 +125,8 @@
 }
 
 .hero-hashtag-item:nth-child(1) {
-  background-color: #f9f7f4;
-  color: #141414;
+  background-color: var(--second-btn-color);
+  color: var(--text-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -235,8 +235,8 @@
 
   .hero-btn:hover,
   .hero-btn:focus {
-    background-color: #eaf7e5;
-    color: #a1c487;
+    background-color: var(--vegetables-color);
+    color: var(--hero-bg-color);
   }
 
   .hero-picture {
