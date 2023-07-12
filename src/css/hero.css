@@ -130,7 +130,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .hero-container {
     padding-top: 64px;
     padding-bottom: 32px;
@@ -194,7 +193,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  
   .hero-container {
     padding-top: 132px;
     position: relative;
@@ -245,7 +243,7 @@
     position: absolute;
     top: 50%;
     left: 77.5%;
-    transform: translate(-50%, -50%) scaleY(1);
+    transform: translate(-50%, -50%);
     width: 515px;
     height: 432px;
     margin-bottom: 0;
