@@ -345,8 +345,8 @@
 @media screen and (min-width: 1280px) {
   .container-modal {
     min-width: 891px;
-    min-height: 911px;
-    overflow: hidden;
+    max-height: 911px;
+    overflow: auto;
   }
 
   .wrap-girl {
