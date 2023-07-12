@@ -35,7 +35,7 @@
   pointer-events: none;
 }
 
-                                  /** MODAL TITLE **/
+/** MODAL TITLE **/
 
 .modal-title {
   color: #141414;
@@ -48,7 +48,7 @@
   margin-bottom: 40px;
 }
 
-                                /** MODAL CLOSE BTN **/
+/** MODAL CLOSE BTN **/
 
 .btn-close-modal {
   position: absolute;
@@ -65,7 +65,7 @@
   cursor: pointer;
 }
 
-                                /** SECTIONS **/
+/** SECTIONS **/
 
 .sections-mob {
   background-color: #FAF3E7;
@@ -113,7 +113,12 @@
   margin-bottom: 40px;
 }
 
-                            /** IMG MODAL **/
+.btn-close-modal {
+  width: 28px;
+  height: 28px;
+}
+
+/** IMG MODAL **/
 
 .choose-img {
   margin-top: 33px;
@@ -122,10 +127,15 @@
 
 .cabbage-mob-img {
   margin-left: 19px;
-} 
+}
 
 .tomato-mob-img {
   margin-left: 31px;
+}
+
+.checkbox-list {
+  width: 20px;
+  height: 20px;
 }
 
 /** MODAL FORM **/
@@ -268,19 +278,11 @@
     margin-left: 12px;
   }
 
-  .checkbox-list {
-    width: 20px;
-    height: 20px;
-  }
-
   .vegetables-section {
     margin-left: 12px;
   }
 
-  .btn-close-modal {
-    width: 28px;
-    height: 28px;
-  }
+  
 
   /** MODAL FORM **/
 
