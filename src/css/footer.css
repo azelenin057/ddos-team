@@ -162,5 +162,31 @@ letter-spacing: -0.36px;
   .footer-nav-list {
     margin-top: 84px;
   }
+  .footer-nav-item {
+    transition: color var(--transition);
+  }
+  .footer-nav-item:hover,
+  .footer-nav-item:focus {
+    color: #a1c487;
+
+  }
+  .footer-social-link {
+    transition: border-color var(--transition);
+  }
+
+  .footer-social-link:hover ,
+  .footer-social-link:focus {
+    border-color: #a1c487;
+  } 
+
+
+  .footer-social-icon {
+    transition: fill var(--transition);
+  }
+
+  .footer-social-item:hover .footer-social-icon,
+  .footer-social-item:focus .footer-social-icon {
+    fill: #a1c487;
+  } 
 }
 
