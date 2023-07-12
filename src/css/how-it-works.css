@@ -6,10 +6,9 @@
 .how-it-works-title {
   font-size: 28px;
   font-weight: 500;
-  line-height: calc(32 / 28);
+  line-height: 1.14;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  text-align: center;
   margin-bottom: 20px;
 }
 .how-it-works-image img {
@@ -29,7 +28,7 @@
 
 .how-it-works-text {
   font-size: 14px;
-  line-height: calc(18 / 14);
+  line-height: 1.28;
   letter-spacing: -0.04em;
 }
 
@@ -48,7 +47,7 @@
   .how-it-works-title {
     max-width: 386px;
     font-size: 40px;
-    line-height: calc(44 / 40);
+    line-height: 1.1;
     margin-bottom: 40px;
   }
 
@@ -74,7 +73,7 @@
 
   .how-it-works-text {
     font-size: 18px;
-    line-height: calc(24 / 18);
+    line-height: 1.33;
     font-style: normal;
   }
 }
@@ -89,12 +88,11 @@
   .how-it-works-title {
     max-width: 614px;
     font-size: 48px;
-    line-height: calc(50 / 48);
+    line-height: 1.04;
   }
   .how-it-works-image img {
     width: 410px;
     height: 170px;
-    /* transition: transform 0.3s ease; */
   }
   .how-it-works-list {
     max-width: 687px;
@@ -106,9 +104,4 @@
   .how-it-works-item:last-child {
     width: 294px;
   }
-
-  /* .how-it-works-image img:hover,
-  .how-it-works-image img:focus {
-    transform: scale(2.5);
-  } */
 }
