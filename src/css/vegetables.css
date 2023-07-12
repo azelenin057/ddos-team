@@ -98,6 +98,10 @@
   text-transform: uppercase;
 }
 
+.order-bttn:is(:hover ,:focus) {
+  background-color: #A1C487;
+}
+
 .icon-bttn {
   transform: rotate(15deg);
   padding-right: 4px;
