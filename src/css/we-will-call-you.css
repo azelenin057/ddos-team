@@ -11,7 +11,7 @@
   text-align: center;
   font-size: 24px;
   font-weight: 500;
-  line-height: calc(28 / 24);
+  line-height: 1.16;
   letter-spacing: -0.04em;
   text-transform: uppercase;
   margin: 0 auto;
@@ -19,7 +19,7 @@
 }
 .call-you-text {
   text-align: center;
-  line-height: calc(18 / 14);
+  line-height: 1.28;
   letter-spacing: -0.04em;
   margin: 0 auto;
   margin-bottom: 40px;
@@ -36,9 +36,9 @@
 }
 .call-you-tel {
   font-style: normal;
-  line-height: calc(18 / 14);
+  line-height: 1.28;
   letter-spacing: -0.04em;
-  color: #141414;
+  color: var(--text-color);
   border: 1px solid #c1bdbd;
   background-color: transparent;
   border-radius: 100px;
@@ -50,7 +50,7 @@
 .call-you-tel::placeholder {
   color: #c1bdbd;
   font-style: normal;
-  line-height: calc(18 / 14);
+  line-height: 1.28;
   letter-spacing: -0.04em;
 }
 .call-you-btn {
@@ -58,16 +58,16 @@
   top: 0;
   right: 0;
   border-radius: 100px;
-  background: #fc8a11;
+  background: var(--main-btn-color);
   color: #fff;
-  line-height: calc(18 / 14);
+  line-height: 1.28;
   letter-spacing: -0.04em;
   text-transform: capitalize;
   padding: 15px 35px;
   border: none;
 }
 .call-you-image img {
-  background-color: #faf3e7;
+  background-color: var(--second-btn-color);
   border-radius: 40px;
   background-image: url(/img/call-you/bg-x1.png);
   background-size: cover;
@@ -84,13 +84,13 @@
   .call-you-title {
     max-width: 524px;
     font-size: 40px;
-    line-height: calc(44 / 40);
+    line-height: 1.1;
   }
 
   .call-you-text {
     max-width: 499px;
     font-size: 18px;
-    line-height: calc(24 / 18);
+    line-height: 1.33;
   }
   .call-you-form {
     width: 355px;
@@ -128,7 +128,7 @@
   .call-you-title {
     width: 614px;
     font-size: 48px;
-    line-height: calc(50 / 48);
+    line-height: 1.04;
     margin-bottom: 40px;
     text-align: left;
   }
@@ -154,12 +154,13 @@
     padding-left: 0;
     padding-right: 0;
   }
+
   .call-you-tel:focus {
-    background-color: #eaf7e5;
+    background-color: var(--vegetables-color);
   }
 
   .call-you-btn:hover,
   .call-you-btn:focus {
-    background: #a1c487;
+    background: var(--hero-bg-color);
   }
 }
