@@ -106,28 +106,30 @@
   display: flex;
   flex-wrap: wrap;
   width: 173px;
-  height: 60px;
+  height: 64px;
   gap: 4px;
   margin-left: auto;
 }
 
 .hero-hashtag-item {
-  padding: 8px 14px;
+  padding: 8px 14px 8px 14px;
   border-radius: 1000px;
   border: 1px solid #fff;
   color: #fff;
-  text-align: center;
+}
+
+.hero-hashtag-text {
   font-size: 10px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.04em;
   text-transform: uppercase;
 }
 
-.hero-hashtag-item:nth-child(1) {
+.current-hashtag {
   background-color: var(--second-btn-color);
   color: var(--text-color);
+  border-color: var(--second-btn-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -182,12 +184,15 @@
 
   .hero-hashtag-list {
     width: 217px;
-    height: 76px;
+    height: 80px;
     gap: 8px 4px;
   }
 
   .hero-hashtag-item {
     padding: 10px 20px;
+  }
+
+  .hero-hashtag-text {
     font-size: 12px;
     line-height: 1.16;
   }
@@ -252,7 +257,7 @@
 
   .hero-hashtag-list {
     width: 269px;
-    height: 84px;
+    height: 88px;
     gap: 8px 8px;
   }
 
