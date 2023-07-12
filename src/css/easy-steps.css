@@ -3,7 +3,7 @@
 }
 
 .steps-container {
-  background-color: #FAF3E7;
+  background-color: var(--second-btn-color);
   border-radius: 40px;
   background-image: url(/img/easy-steps/bg.png);
   background-size: cover;
@@ -17,7 +17,7 @@
 .steps-wrap {}
 
 .steps-title {
-  color: #141414;
+  color: var(--text-color);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.16;
@@ -48,7 +48,7 @@
   display: flex;
   content: counter(charter);
   counter-increment: charter;
-  color: #141414;
+  color: var(--text-color);
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
@@ -62,7 +62,7 @@
 }
 
 .steps-text {
-  color: #141414;
+  color: var(--text-color);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28;
