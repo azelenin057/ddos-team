@@ -33,6 +33,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --text-color: #141414;
+  --hero-bg-color: #a1c487;
+  --vegetables-color: #eaf7e5;
+  --main-btn-color: #fc8a11;
+  --second-btn-color: #faf3e7;
+  --grey-color: #f3f3f3;
 }
 
 .container {
