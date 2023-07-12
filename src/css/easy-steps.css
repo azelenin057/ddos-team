@@ -1,12 +1,10 @@
 .steps {
-  /* background-image: radial-gradient(rgba(161, 196, 135, 0.69) 4px, transparent 0); */
-  /* background-image: url(/images/BG.png); */
+  
 }
 
 .steps-container {
   background-color: #FAF3E7;
   border-radius: 40px;
-
   background-image: url(/img/easy-steps/bg.png);
   background-size: cover;
   padding: 40px 20px 0 20px;
@@ -91,7 +89,6 @@
 @media screen and (min-width:1280px) {
 
   .steps-container {
-    /* padding: 40px 80px 0 40px; */
     border-radius: 80px;
     justify-content: space-around;
   }
