@@ -3,7 +3,7 @@
 }
 
 .vegetables-title {
-  color: #141414;
+  color: var(--text-color);
   text-align: center;
   font-size: 24px;
   font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 .vegetables-text {
-  color: #141414;
+  color: var(--text-color);
   text-align: center;
   font-size: 14px;
   font-style: normal;
@@ -33,12 +33,12 @@
 
 .vegetables-item {
   padding: 40px 20px 20px;
-  background: #eaf7e5;
+  background: var(--vegetables-color);
   border-radius: 20px;
 }
 
 .cards-subtitle {
-  color: #141414;
+  color: var(--text-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -48,7 +48,7 @@
 }
 
 .cards-text {
-  color: #141414;
+  color: var(--text-color);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -61,7 +61,7 @@
 }
 
 .cards-price {
-  color: #141414;
+  color: var(--text-color);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -76,7 +76,9 @@
 .order-bttn {
   display: block;
   border-radius: 50%;
-  background-color: #fc8a11;
+
+  background-color: var(--main-btn-color);
+
   color: #fff;
   border: none;
   width: 80px;
@@ -91,6 +93,10 @@
   line-height: 1.28;
   letter-spacing: -0.56px;
   text-transform: uppercase;
+}
+
+.order-bttn:is(:hover ,:focus) {
+  background-color: var(--hero-bg-color);
 }
 
 .icon-bttn {
