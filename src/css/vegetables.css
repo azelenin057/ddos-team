@@ -95,8 +95,9 @@
   text-transform: uppercase;
 }
 
-.order-bttn:is(:hover ,:focus) {
+.order-bttn:is(:hover, :focus) {
   background-color: var(--hero-bg-color);
+  transition: background-color var(--transition);
 }
 
 .icon-bttn {
