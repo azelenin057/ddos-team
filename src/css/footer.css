@@ -192,6 +192,15 @@ letter-spacing: -0.36px;
   transition: color var(--transition);
 }
 
+.contacts-phone {
+  transition: color var(--transition);
+}
+
+.contacts-phone:hover ,
+.contacts-phone:focus {
+  color: #a1c487;
+} 
+
 .contacts-address:hover ,
 .contacts-address:focus {
   color: #a1c487;
