@@ -162,5 +162,6 @@
   .call-you-btn:hover,
   .call-you-btn:focus {
     background: var(--hero-bg-color);
+    transition: background-color var(--transition);
   }
 }
