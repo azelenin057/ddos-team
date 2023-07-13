@@ -15,12 +15,36 @@
 @import url('./easy-steps.css');
 
 @font-face {
-  font-family: 'DM Sans', sans-serif;
-  src: url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+  font-family: 'DM Sans';
+  src: url(../fonts/DMSans-Bold.woff2), url(../fonts/DMSans-Bold.woff);
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url(../fonts/DMSans-Medium.woff2), url(../fonts/DMSans-Medium.woff);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url(../fonts/DMSans-MediumItalic.woff2),
+    url(../fonts/DMSans-MediumItalic.woff);
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url(../fonts/DMSans-Regular.woff2), url(../fonts/DMSans-Regular.woff);
+  font-style: normal;
+  font-weight: 400;
 }
 
-:root {
+body {
   font-family: 'DM Sans', sans-serif;
+}
+:root {
+  font-family: 'DMSans', sans-serif;
   font-size: 14px;
   line-height: 1.28;
   font-weight: 400;
@@ -33,6 +57,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --text-color: #141414;
+  --hero-bg-color: #a1c487;
+  --vegetables-color: #eaf7e5;
+  --main-btn-color: #fc8a11;
+  --second-btn-color: #faf3e7;
+  --grey-color: #f3f3f3;
 }
 
 .container {

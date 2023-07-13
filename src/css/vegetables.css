@@ -1,10 +1,5 @@
-@font-face {
-  font-family: 'DM Sans', sans-serif;
-  src: url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-}
-
 .vegetables {
-  padding: 80px 0;
+  padding-top: 80px;
 }
 
 .vegetables-title {
@@ -81,7 +76,9 @@
 .order-bttn {
   display: block;
   border-radius: 50%;
+
   background-color: var(--main-btn-color);
+
   color: #fff;
   border: none;
   width: 80px;
@@ -109,9 +106,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  
   .vegetables {
-    padding: 100px 0;
+    padding-top: 100px;
   }
 
   .vegetables-title {
@@ -177,12 +173,12 @@
 
 @media screen and (min-width: 1280px) {
   .vegetables {
-    padding: 124px 0;
+    padding-top: 124px;
   }
 
   .vegetables-title {
     font-size: 40px;
-    line-height: 1.10;
+    line-height: 1.1;
     letter-spacing: -1.6px;
   }
 
@@ -200,7 +196,7 @@
     width: calc((100% - 48px) / 3);
   }
 
-.radish-hidden {
-  display: flex;
+  .radish-hidden {
+    display: flex;
   }
 }

@@ -26,7 +26,7 @@
     </div>
 
     <div class="header-btn-container">
-      <button class="header-basket-btn" type="button">
+      <button class="header-basket-btn" type="button" data-modalopen-header>
         <svg class="header-basket-icon" width="24" height="24">
           <use href="/icon.svg#icon-shopping"></use>
         </svg>
@@ -38,42 +38,29 @@
         aria-controls="mobile-menu"
         type="button"
       >
-        <svg class="mobile-menu-icon" width="24" height="24">
-          <use href="/icon.svg#icon-menu"></use>
-        </svg>
+        <span class="js-show-btn"></span>
       </button>
     </div>
 
     <div class="mobile-menu-container js-menu-container" id="mobile-menu">
       <div class="mobile-menu-head">
-        <a class="header-logo" href="./index.html">
-          <svg class="header-logo-icon" width="16" height="16">
-            <use href="/icon.svg#icon-logo"></use>
-          </svg>
-          Veggieboost
-        </a>
-
-        <button class="mobile-menu-close js-close-menu" type="button">
-          <svg class="mobile-menu-icon" width="24" height="24">
-            <use href="/icon.svg#icon-x"></use>
-          </svg>
         </button>
       </div>
 
       <div class="mobile-menu-wrap">
         <ul class="mobile-menu">
           <li class="mobile-menu-item">
-            <a href="#how-it-works">How it works</a>
+            <a class="js-close-menua" href="#how-it-works">How it works</a>
           </li>
           <li class="mobile-menu-item">
-            <a href="#vegetables">Vegetables</a>
+            <a class="js-close-menub" href="#vegetables">Vegetables</a>
           </li>
           <li class="mobile-menu-item">
-            <a href="#contacts">Contacts</a>
+            <a class="js-close-menuc" href="#contacts">Contacts</a>
           </li>
         </ul>
 
-        <button class="mobile-basket-btn" type="button">
+        <button class="mobile-basket-btn  js-close-menud" type="button" data-modalopen-menu>
           <svg class="mobile-basket-icon" width="24" height="24">
             <use href="/icon.svg#icon-shopping"></use>
           </svg>

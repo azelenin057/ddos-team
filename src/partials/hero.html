@@ -1,87 +1,153 @@
 <section class="hero">
-  <ul class="hero-review-list">
-    <li class="hero-review-item">
+  <div class="container hero-container">
+    <ul class="hero-review-list">
+      <li class="hero-review-item">
+        <picture>
+          <source
+            srcset="
+              ./img/hero/hero-review-01-desk-x1.png 1x,
+              ./img/hero/hero-review-01-desk-x2.png 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/hero/hero-review-01-tab-x1.png 1x,
+              ./img/hero/hero-review-01-tab-x2.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/hero/hero-review-01-x1.png 1x,
+              ./img/hero/hero-review-01-x2.png 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="./img/hero/hero-review-01-desk-x1.png"
+            alt="reviewer photo"
+            width="66"
+          />
+        </picture>
+      </li>
+      <li class="hero-review-item">
+        <picture>
+          <source
+            srcset="
+              ./img/hero/hero-review-02-desk-x1.png 1x,
+              ./img/hero/hero-review-02-desk-x2.png 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/hero/hero-review-02-tab-x1.png 1x,
+              ./img/hero/hero-review-02-tab-x2.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/hero/hero-review-02-x1.png 1x,
+              ./img/hero/hero-review-02-x2.png 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="./img/hero/hero-review-02-desk-x1.png"
+            alt="reviewer photo"
+            width="66"
+          />
+        </picture>
+      </li>
+      <li class="hero-review-item">
+        <picture>
+          <source
+            srcset="
+              ./img/hero/hero-review-03-desk-x1.png 1x,
+              ./img/hero/hero-review-03-desk-x2.png 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/hero/hero-review-03-tab-x1.png 1x,
+              ./img/hero/hero-review-03-tab-x2.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/hero/hero-review-03-x1.png 1x,
+              ./img/hero/hero-review-03-x2.png 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="./img/hero/hero-review-03-desk-x1.png"
+            alt="reviewer photo"
+            width="66"
+          />
+        </picture>
+      </li>
+      <li class="hero-review-item">
+        <p class="hero-review-number">2k</p>
+        <p class="hero-review-text">reviews</p>
+      </li>
+    </ul>
+
+    <h1 class="hero-title">
+      organic <span class="hero-title-vege">vegetables</span> to your diet
+      today!
+    </h1>
+
+    <p class="hero-text">
+      Our expertly curated vegetable baskets are made with the freshest, highest
+      quality vegetables available. Fresh Harvest Box has got you covered.
+      Fresh, high-quality vegetables in expertly curated vegetable baskets
+      delivered to you.
+    </p>
+
+    <button type="button" class="hero-btn" data-modal-open>shop now</button>
+
+    <div class="hero-picture">
       <picture>
         <source
           srcset="
-            ./img/hero/hero-review-01-x1.png 1x,
-            ./img/hero/hero-review-01-x2.png 2x
+            ./img/hero/hero-main-x1.png 1x,
+            ./img/hero/hero-main-x2.png 2x
           "
+          media="(min-width: 1280px)"
         />
-        <img
-          src="./img/hero/hero-review-01-x1.png"
-          alt="reviewer photo"
-          width="40"
-        />
-      </picture>
-    </li>
-    <li class="hero-review-item">
-      <picture>
         <source
           srcset="
-            ./img/hero/hero-review-02-x1.png 1x,
-            ./img/hero/hero-review-02-x2.png 2x
+            ./img/hero/hero-main-tab-x1.png 1x,
+            ./img/hero/hero-main-tab-x2.png 2x
           "
+          media="(min-width: 768px)"
         />
-        <img
-          src="./img/hero/hero-review-02-x1.png"
-          alt="reviewer photo"
-          width="40"
-        />
-      </picture>
-    </li>
-    <li class="hero-review-item">
-      <picture>
         <source
           srcset="
-            ./img/hero/hero-review-03-x1.png 1x,
-            ./img/hero/hero-review-03-x2.png 2x
+            ./img/hero/hero-main-mob-x1.png 1x,
+            ./img/hero/hero-main-mob-x2.png 2x
           "
+          media="(max-width: 767px)"
         />
         <img
-          src="./img/hero/hero-review-03-x1.png"
-          alt="reviewer photo"
-          width="40"
+          src="./img/hero/hero-main-x1.png"
+          alt="woman with veges"
+          width="515"
+          class="hero-img"
         />
       </picture>
-    </li>
-    <li class="hero-review-item">
-      <p class="hero-review-number">
-        2k <span class="hero-review-text">reviews</span>
-      </p>
-    </li>
-  </ul>
+    </div>
 
-  <h1 class="hero-title">organic <span class="hero-title-vege">vegetables</span> to your diet today!</h1>
-
-  <p class="hero-text">
-    Our expertly curated vegetable baskets are made with the freshest, highest
-    quality vegetables available. Fresh Harvest Box has got you covered. Fresh,
-    high-quality vegetables in expertly curated vegetable baskets delivered to
-    you.
-  </p>
-
-  <button type="button" class="hero-btn">shop now</button>
-
-  <picture>
-    <source
-      srcset="./img/hero/hero-main-x1.png 1x, ./img/hero/hero-main-x2.png 2x"
-    />
-    <img src="./img/hero/hero-main-x1.png" alt="woman with veges" width="230">
-  </picture>
-
-  <ul class="hero-hashtag-list">
-    <li class="hero-hashtag-item">
-      <p class="hero-hashtag-text">#organic</p>
-    </li>
-    <li class="hero-hashtag-item">
-      <p class="hero-hashtag-text">#products</p>
-    </li>
-    <li class="hero-hashtag-item">
-      <p class="hero-hashtag-text">#basket</p>
-    </li>
-    <li class="hero-hashtag-item">
-      <p class="hero-hashtag-text">#vegetables</p>
-    </li>
-  </ul>
+    <ul class="hero-hashtag-list">
+      <li class="hero-hashtag-item">#organic</li>
+      <li class="hero-hashtag-item">#products</li>
+      <li class="hero-hashtag-item">#basket</li>
+      <li class="hero-hashtag-item">#vegetables</li>
+    </ul>
+  </div>
 </section>
