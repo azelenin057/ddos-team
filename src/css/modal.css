@@ -262,7 +262,7 @@
 
   .wrap-girl {
     margin-left: 15px;
-    margin-top: 25px;
+    margin-top: 39px;
     overflow: auto;
   }
 
@@ -345,8 +345,8 @@
 @media screen and (min-width: 1280px) {
   .container-modal {
     min-width: 891px;
-    min-height: 911px;
-    overflow: hidden;
+    max-height: 911px;
+    overflow: auto;
   }
 
   .wrap-girl {
